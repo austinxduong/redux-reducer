@@ -21,6 +21,8 @@ describe('behavior testing!', () => {
     userEvent.click(undoButton);
     expect(display).toHaveStyle({ backgroundColor: '#40C69D' });
 
-
+    const redoButton = screen.getByTestId('redo');
+    userEvent.click(redoButton);
+    expect(display).toHaveStyle({ backgroundColor: '#40C69D' });
   });
 });
