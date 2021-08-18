@@ -1,7 +1,7 @@
 import { UNDO, REDO, CURRENT_COLOR } from './actions';
 
 export const initialState = {
-  current: '#FF0000',
+  current: '#40C69D',
   before: [],
   after: [],
 };
